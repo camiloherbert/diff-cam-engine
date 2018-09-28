@@ -144,6 +144,7 @@ var DiffCamEngine = (function() {
 				);
 			}
 			captureCallback({
+				captureContext: captureContext,
 				imageData: captureImageData,
 				score: diff.score,
 				hasMotion: diff.score >= scoreThreshold,
